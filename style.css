@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #231942;
+    opacity: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    gap: 50px;
+}
+
+#navBoton,
+li {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+#navBoton:hover {
+    color: #E0B1CB;
+}
+
+#searchBar {
+    width: 400px;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+body {
+    background-color: #E0B1CB;
+}
+
+.main {
+    width: 90%;
+    height: 750px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feed {
+    width: 70%;
+    height: 750px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post1 {
+    width: 550px;
+    height: 350px;
+    background-image: url(image/post1.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.post2 {
+    width: 550px;
+    height: 350px;
+    background-image: url(image/post2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.post3 {
+    width: 550px;
+    height: 350px;
+    background-image: url(image/post3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.post4 {
+    width: 550px;
+    height: 350px;
+    background-image: url(image/post4.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.postText {
+    width: 550px;
+    height: 80px;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postBoton {
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    color: #5E548E;
+    border: 2px solid #5E548E;
+    background-color: transparent;
+    border-radius: 1rem;
+}
+
+.postBoton:hover {
+    color: white;
+    background-color: #5E548E;
+    transition: 0.2s;
+}
+
+.recomendaciones {
+    width: 20%;
+    height: 750px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.recomAmigos {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user img {
+    border-radius: 100%;
+}
+
+.user a {
+    text-decoration: none;
+    color: #231942;
+}
+.user p {
+    font-size: 0.9em;
+}
+.recoBoton {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #E0B1CB;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.recoBoton:hover {
+    background-color: transparent;
+    border: 2px solid #E0B1CB;
+}
+
+.recomGrupos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.group a {
+    text-decoration: none;
+    color: #231942;
+}
+
+.recomAmigos i,
+.recomGrupos i {
+    color: #231942;
+}
+
+.recomAmigos i:hover,
+.recomGrupos i:hover {
+    color: #231942;
+
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background: #231942;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer p {
+    color: white;
+}
+
+.footerList {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.footerList a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerList a:hover {
+    color: #E0B1CB;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 30px;
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: #E0B1CB;
+}
+
+.profileBanner{
+    width: 100%;
+    height: 400px;
+    background: rgb(35,25,66);
+    background: linear-gradient(135deg, rgba(35,25,66,1) 0%, rgba(159,134,192,1) 51%, rgba(224,177,203,1) 100%);
+}
+.profileInfo{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+.profileInfo img, .profileInfo h4{
+    border-radius: 50px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.profileInfo p{
+    color: white;
+}
+
+.profileNav{
+    width: 100%;
+    height: 80px;
+    background-color: #9F86C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileNav ul, .profileNav a{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    color: white;
+}
+.profileNav a:hover{
+    color: #231942;
+}
+.profileFeed{
+    width: 80%;
+    min-width: 400px;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.profileFeed div img{
+    width: 450px;
+    height: 350px;
+    margin: 10px auto;
+    object-fit:cover;
+}
+.userBanner{
+    width: 100%;
+    height: 400px;
+    background: rgb(35,25,66);
+    background: linear-gradient(135deg, rgba(35,25,66,1) 0%, rgba(159,134,192,1) 51%, rgba(224,177,203,1) 100%);
+}
+.userFeed{
+    width: 80%;
+    min-width: 400px;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.userFeed div{
+    width: 450px;
+    height: 350px;
+    margin: 10px auto;
+    object-fit:cover;
+}
+
+
+
+
+
+
+.login {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #231942;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginInfo {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login {
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#loginBoton {
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: #231942;
+    border: 1px solid #231942;
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 40px;
+}
+
+#loginBoton:hover {
+    color: white;
+    background-color: #231942;
+    transition: 0.2s;
+}
